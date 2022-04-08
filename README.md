@@ -1,1 +1,1 @@
-# Tienda-de-peliculas
+Tarea 02 Reto películas
