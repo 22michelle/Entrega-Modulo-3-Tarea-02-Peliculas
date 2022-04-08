@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+        <div class="logo-container">
+            <h1 class="logo">Películas</h1>
+        </div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <a href="index.html" style="text-decoration: none; color: white;"> <li class="menu-list-item active">Home</li></a>
+                <a href="index.2.html" style="text-decoration: none; color: white;"><li class="menu-list-item">Registro</li></a>
+                <a href="ver-películas.html" style="text-decoration: none; color: white;"><li class="menu-list-item">Tráilers</li></a>
+            </ul>
+        </div>
+        
+            <div class="toggle">
+                <i class="fas fa-moon toggle-icon"></i>
+                <i class="fas fa-sun toggle-icon"></i>
+                <div class="toggle-ball"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container"><br>
+    <form action="" class="form" id="form" autocomplete="off">
+        
+      <p class="form-titulo">Regístrate</p>
+      <div class="form-input myname">
+        <input type="text" id="myname">
+        <label for="myname">Nombre</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input surname">
+        <input type="text" id="surname">
+        <label for="surname">Apellidos</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input email">
+        <input type="email" id="email">
+        <label for="email">Correo electrónico</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input password">
+        <input type="password" id="password">
+        <label for="password">Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input repeatPassword">
+        <input type="password" id="repeatPassword">
+        <label for="repeatPassword">Repetir Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-termsAndConditions termsAndConditions">
+        <input type="checkbox" id="termsAndConditions">
+        <label for="termsAndConditions">He leído y acepto los </label>
+        <a href="#">Términos y Condiciones</a>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-boton" >
+        <input type="submit" value="Enviar">
+      </div>
+      <p class="mensajeCorrecto" style="font-size: 30px;"></p>
+    </form><br>
+  </div>
+  <br>
+  <br>
+
+<script src="app.js"></script>
+</body>
+</html>
